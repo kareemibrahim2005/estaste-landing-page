@@ -1,0 +1,865 @@
+*{
+    list-style: none;
+}
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#times{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    top: -2px;
+    left: 18px;
+    display: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.menu-btn-1{
+    display: none;
+
+    
+}
+
+
+#menu-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+#line{
+    background-color: rgb(199, 198, 198);
+    height: 4px;
+    width: 17px;
+    border-radius: 20px;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+header a{
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+header a:hover{
+    color: rgb(5, 141, 253);
+    border-bottom: 2px solid ;
+    transition: 800ms;
+}
+
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    align-items: center;
+    margin-left: -70px;
+}
+
+li{
+    padding-left: 50px;
+    font-size: 12px;
+
+
+}
+
+#logo{
+    color: rgb(5, 141, 253);
+    font-weight: 900px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+
+
+#login{
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(5, 141, 253);
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: rgb(56, 245, 56);
+    transition: 800ms;
+}
+
+
+#back-cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(207, 235, 247);
+    align-items: center;
+}
+#text-1{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+#chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-ar;
+    width: 440px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+#chart:hover{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 700ms;
+}
+
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#box-{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#box-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 70px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding-top: 30px;
+    
+
+    
+
+}
+
+#box-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 120%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#img-chart{
+    width: 150px;
+    height: auto;
+}
+#img-chart-line{
+    width: 65px;
+    height: auto;
+    
+}
+.line{
+    height: 2px;
+    width: 80%;
+    
+
+}
+
+#text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+#sec-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+}
+
+
+#sub-head{
+    color: rgb(5, 141, 253);
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+
+
+
+#digit{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+
+#topic{
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
+#text p{
+    color: gray;
+    font-size: 12px;
+   
+}
+
+
+#text #btn{
+    color: rgb(5, 141, 253);
+    cursor: pointer;
+}
+
+#text #btn:hover{
+    transition: 800ms;
+    transform: translateX(5px);
+    color: rgb(56, 245, 56);
+}
+
+#chart-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 440px;
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+#chart-2:hover{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 700ms;
+}
+
+#chart-2 #pin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: end;
+    width: 60%;
+    margin-top: -7px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+#div1 div{
+    height: 70px;
+    width: 35px;
+    background-color: rgb(253, 153, 86);
+}
+
+#div2 div{
+    height: 90px;
+    width: 35px;
+    background-color: rgb(219, 215, 215);
+}
+
+#div3 div{
+    height: 110px;
+    width: 35px;
+    background-color: rgb(219, 215, 215);
+}
+
+#div4 div{
+    height: 100px;
+    width: 35px;
+    background-color: rgb(0, 0, 37);
+}
+
+.bar span{
+    font-size: 10px;
+    padding-right: 3px;
+
+}
+
+
+#sec-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 800px;
+}
+
+
+#sec-2 #text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#chart-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 440px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    
+}
+#chart-3:hover{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 800ms;
+}
+
+#chart-3 #div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-top: 1px solid rgb(214, 212, 212);
+}
+
+#chart-3 #div-1 p{
+    font-size: 13px;
+    width: 50%;
+    font-weight: 700px;
+    color: grey;
+}
+#chart-3 #sub-head{
+    color: rgb(5, 141, 253);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+#sec-3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    width: 800px;
+}
+
+#sec-3 #div-1 span{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#sec-3 #text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -170px;
+}
+
+#sec-4{
+    width: 870px;
+    padding-top: 50px;
+    padding-left: 68px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec-4 #div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    background-color: aliceblue;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#sec-4 #div-1:hover{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 700ms;
+}
+
+#sec-4 #div-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+}
+
+#sec-4 #div-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+}
+
+
+
+
+#sec-4 #div-1 span{
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#sec-4 #div-3 span{
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    color: gray;
+}
+
+
+#sec-4 #div-2 span{
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding: 20px;
+    color: gray;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#topic-1{
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 70px;
+}
+
+@media (max-width: 900px) {
+    #text-1{
+        font-size: 25px;
+        transition: 800ms;
+    }
+    #chart{
+        width: 35%;
+        transition: 800ms;
+    }
+    #chart-2{
+        width: 35%;
+        transition: 800ms;
+    }
+    #chart-3{
+        width: 35%;
+        transition: 800ms;
+    }
+    #sub-head{
+        font-size: 11px;
+        transition: 800ms;
+    }
+    #sec-3 #sub-head{
+        font-size: 11px;
+        transition: 800ms;
+    }
+    #chart-3 #div-1 p{
+        font-size: 11px;
+        transition: 800ms;
+    }
+    #main #sec-1{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        transition: 800ms;
+    }
+    #main #sec-2{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        transition: 800ms;
+    }
+    #main #sec-3{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        transition: 800ms;
+    }
+    #sec-4{
+        width: 82%;
+        transition: 800ms;
+
+    }
+    #text{
+        width: 30%;
+        transition: 800ms;
+
+    }
+    #sec-2 #text{
+        width: 30%;
+        transition: 800ms;
+    }
+    #sec-3 #text{
+        width: 30%;
+        transition: 800ms;
+    }
+    #topic{
+        font-size: 14px;
+        font-weight: 600;
+        transition: 800ms;
+    }
+    #text p{
+        font-size: 10px;
+        font-weight: 600;
+        transition: 800ms;
+    }
+    #digit{
+        font-size: 17px;
+        transition: 800ms;
+    }
+    #box{
+        padding-right: 1px;
+    }
+    #img-chart-line{
+        width: 82px;
+        transition: 800ms;
+    }
+    #sec-3 #div-1 span{
+        font-size: 14px;
+        transition: 800ms;
+
+    }
+    #topic-1{
+        font-size: 15px;
+        font-weight: 600;
+        transition: 800ms;
+    }
+    #sec-4 #div-1 span{
+        font-size: 11px;
+        transition: 800ms;
+    }
+    #sec-4 #div-2 span{
+        font-size: 9px;
+        transition: 800ms;
+    }
+    #sec-4 #div-3 span{
+        font-size: 9px;
+        transition: 800ms;
+    }
+    footer{
+        font-size: 11px;
+        transition: 800ms;
+    }
+    .menu-btn-1{
+        display: block
+    }
+    #nav-list{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 30vh;
+        background-color: rgb(197, 231, 243);
+        justify-content: space-evenly;
+        transition: 800ms;
+        display: none;
+    
+    }
+    header a{
+        color: rgb(110, 110, 110);
+    }
+    #box{
+        padding-left: 2px;
+    }
+    #logo{
+        padding-right: 25px;
+    }
+    
+}
+
+@media (max-width: 780px) {
+    #main section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transition: 800ms;
+    }
+    #chart{
+        width: 75%;
+    }
+    #chart-2{
+        width: 75%;
+    }
+    #chart-3{
+        width: 75%;
+    }
+    #box{
+        padding-right: 35px
+    }
+    #text{
+        width: 60%;
+        padding-top: 40px;
+
+    }
+    #sec-2 #text{
+        width: 60%;
+        padding-top: 40px;
+    }
+    #sec-3 #text{
+        width: 60%;
+        padding-top: 210px;
+    }
+    #back-cover{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 350px;
+    }
+    #back-cover #text-1{
+        padding-top: 220px;
+    }
+    #back-cover span{
+        padding-left: 50px;
+    }
+    #back-cover p{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        color: rgb(5, 141, 253);
+        align-items: center;
+
+    }
+    #sec-1{
+        padding-top: 100px;
+    }
+    #topic{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #digit{
+        font-size: 20px;
+    }
+    #sub-head{
+        font-size: 15px;
+    }
+    #sec-3 #sub-head{
+        font-size: 15px;
+    }
+
+    #text p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #sec-4{
+        width: 90%;
+    }
+    
+    
+}
+
+@media (max-width: 744px){
+    #logo{
+        position: absolute;
+        top: 0px;
+    }
+    #login{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    #digit{
+        font-size: 17px;
+    }
+    #sub-head{
+        font-size: 12px;
+    }
+    #sec-3 #sub-head{
+        font-size: 12px;
+    }
+    #topic{
+        font-size: 13px;
+    }
+    #text p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    #sec-3 #div-1 p{
+        font-size: 10px;
+    }
+    #sec-3 #div-1 span{
+        font-size: 11px;
+    }
+    #topic-1{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    #sec-4 #div-1 span{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    #box{
+        padding-right: 0;
+    }
+    #sec-4{
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 476px) {
+    #sub-head{
+        font-size: 10px;
+    }
+    #sec-3 #sub-head{
+        font-size: 10px;
+    }
+    #sec-3 #div-1 p{
+        font-size: 9px;
+    }
+    #text #topic{
+        font-size: 10px;
+    }
+    #logo{
+        width: 80px;
+        text-align: right;
+    }
+    #topic-1{
+        font-size: 10px;
+    }
+    #sec-4 #div-1 span{
+        font-size: 8px;
+    }
+    #sec-4 #div-2 span{
+        font-size: 7px;
+        width: 70%;
+    } 
+    #sec-4 #div-3 span{
+        font-size: 7px;
+    
+
+    } 
+    #nav-list{
+        width: 108%;
+        top: 20px;
+    
+    }
+    header a{
+        font-size: 16px;
+    }
+    #back-cover img{
+        width: 350px;
+    }
+    #text p{
+        font-size: 9px;
+    }
+    #login{
+        width: 55px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .bar div{
+        width: px;
+    }
+    #chart{
+        width: 85%;
+    }
+    #chart-2{
+        width: 85%;
+    }
+    #chart-3{
+        width: 85%;
+    }
+    footer{
+        font-size: 8px;
+    }
+    #logo{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
